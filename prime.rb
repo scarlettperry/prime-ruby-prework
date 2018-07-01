@@ -7,11 +7,8 @@
    if int == 2 
      true
    end
-   (2..num).each do |x|
-    for item in i
-      if int % item == 0 
-        false 
-      end 
-    end
+   (2..int).each do |x|
+     if 
+   end
     true 
  end
