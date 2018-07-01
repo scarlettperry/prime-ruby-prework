@@ -1,6 +1,6 @@
 # Add  code here!
 
-and_array = [2..Math.sqrt(int)]
+rand_array = [2..Math.sqrt(int)]
 
  def prime? (int)
    
