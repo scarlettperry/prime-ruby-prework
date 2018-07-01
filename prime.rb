@@ -16,5 +16,4 @@ is_prime = true
      end 
    end
    is_prime
-   
  end
