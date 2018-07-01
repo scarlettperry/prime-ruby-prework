@@ -10,5 +10,7 @@
    i = 2..Math.sqrt(int)
     for item in i
       if int % item == 0 
+        false 
+      end 
    
  end
