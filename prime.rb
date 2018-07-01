@@ -12,5 +12,6 @@
       if int % item == 0 
         false 
       end 
-   
+    end
+    true 
  end
