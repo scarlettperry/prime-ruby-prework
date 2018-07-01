@@ -4,11 +4,11 @@
    if int <= 1 
       false
    end
-   if int == 2 
-     true
-   end
    (2..int-1).each do |x|
-     if 
+     if int % x == 0 
+       false 
+     else 
+       true 
+     end 
    end
-    true 
  end
