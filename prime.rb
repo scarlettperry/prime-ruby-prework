@@ -2,11 +2,11 @@
  
  def prime? (int)
    rand_array = (2..Math.sqrt(int)).to_a
-   rand_array.each do |x|
+   int.each do |x|
      if int % x != 0 
        true
      else
-       false
+       falsel
      end
    end
  end
