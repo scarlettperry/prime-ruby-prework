@@ -7,12 +7,12 @@ is_prime = true
     end
   
   if int == 2 
-      true
+      is_prime=true
     end
-   
-   (2..int).each do |x|
+    
+  (2..int).each do |x|
      if int % x !== 0 
-       false 
+       is_prime=false 
      end 
    end
    
