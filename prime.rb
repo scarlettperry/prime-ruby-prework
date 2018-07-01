@@ -9,6 +9,6 @@
    end
    i = 2..Math.sqrt(int)
     for item in i
-      if 
+      if int % item == 0 
    
  end
