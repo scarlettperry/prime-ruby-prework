@@ -7,7 +7,7 @@
    if int == 2 
      true
    end
-   i = 2..Math.sqrt(int)
+   (2..num).each do i = 2..Math.sqrt(int)
     for item in i
       if int % item == 0 
         false 
