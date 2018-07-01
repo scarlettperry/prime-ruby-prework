@@ -12,7 +12,9 @@ is_prime = true
     
   (2..int).each do |x|
      if int % x == 0 
-       is_prime=false 
+       is_prime=false
+     elsif
+      is_prime=true
      end 
    end
    is_prime
