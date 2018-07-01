@@ -3,6 +3,7 @@ is_prime = true
   if int < 2 
       is_prime=false
     end
+  end
   
   
     
