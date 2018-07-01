@@ -4,6 +4,9 @@
    if int < 2 
       false
     end
+    if int == 2 
+      true
+    end
    (2..int-1).each do |x|
      if int % x == 0 
        false 
