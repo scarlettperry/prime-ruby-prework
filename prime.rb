@@ -7,7 +7,7 @@
    if int == 2 
      true
    end
-   (2..int).each do |x|
+   (2..int-1).each do |x|
      if 
    end
     true 
