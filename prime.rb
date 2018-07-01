@@ -11,7 +11,7 @@ is_prime = true
     end
     
   (2..int).each do |x|
-     if int % x !== 0 
+     if int % x == 0 
        is_prime=false 
      end 
    end
