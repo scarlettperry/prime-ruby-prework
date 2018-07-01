@@ -1,5 +1,5 @@
 # Add  code here!
  def prime? (int)
-   array ()
+   array (2..)
    int.each do |number|
  end
