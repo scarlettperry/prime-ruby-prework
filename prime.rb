@@ -6,7 +6,7 @@
      if int % x != 0 
        true
      else
-       falsel
+       false
      end
    end
  end
