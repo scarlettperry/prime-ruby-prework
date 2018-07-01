@@ -1,18 +1,12 @@
 def prime? (int)
 is_prime = true
-  
-  if int < 2 
-      is_prime=false
-  end
-  
-  (2..int-1).each do |x|
+(2..int-1).each do |x|
      if int % x == 0 
        is_prime=false
-     elsif
-      is_prime=true
      end 
    end
-   
+  if int < 2 
+    is_prime=false
+  end
    is_prime
- 
  end
