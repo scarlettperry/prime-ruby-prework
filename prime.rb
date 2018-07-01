@@ -1,6 +1,7 @@
 # Add  code here!
  
  def prime? (int)
+   isPrime = true
    if int <= 1 
       false
     end
