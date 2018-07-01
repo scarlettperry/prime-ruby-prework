@@ -1,5 +1,3 @@
-# Add  code here!
- 
 def prime? (int)
 is_prime = true
   if int <= 1 
@@ -10,7 +8,7 @@ is_prime = true
       is_prime=true
     end
     
-  (2..int).each do |x|
+  (2..int-1).each do |x|
      if int % x == 0 
        is_prime=false
      elsif
