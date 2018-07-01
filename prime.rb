@@ -7,5 +7,6 @@
    if int == 2 
      true
    end
+   i = 2..Math.sqrt(int)
    
  end
