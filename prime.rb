@@ -5,5 +5,8 @@
    rand_array do |number|
      if int % number == 0 
        false
+     else
+       true
+     end
      
  end
