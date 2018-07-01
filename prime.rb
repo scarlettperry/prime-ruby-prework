@@ -10,8 +10,8 @@
     end
    
    (2..int).each do |x|
-     if int % x == 0 
-       false 
+     if int % x != 0 
+       true
      end 
    end
  end
