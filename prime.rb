@@ -1,9 +1,9 @@
 # Add  code here!
  
- def prime? (int)
-   isPrime = true
-   if int <= 1 
-      false
+def prime? (int)
+is_prime = true
+  if int <= 1 
+      is_prime=false
     end
   
   if int == 2 
