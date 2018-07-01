@@ -2,6 +2,6 @@
  
  def prime? (int)
    rand_array = [2..Math.sqrt(int)]
-   int.each do |number|
+   rand_array do |number|
      
  end
